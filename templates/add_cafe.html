@@ -6,19 +6,24 @@
   <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
 </head>
 <body>
-  <h1>Add a New Cafe</h1>
-  <form action="{{ url_for('add_cafe') }}" method="POST">
-    <input type="text" name="name" placeholder="Cafe Name" required>
-    <input type="url" name="map_url" placeholder="Google Maps URL" required>
-    <input type="url" name="img_url" placeholder="Image URL" required>
-    <input type="text" name="location" placeholder="Location" required>
-    <input type="text" name="seats" placeholder="Seats" required>
-    <input type="text" name="coffee_price" placeholder="Coffee Price">
+<div class="contact-container">
+  <form action="{{ url_for('add_cafe') }}" method="POST" class="contact-left">
+  <div class="contact-left-title">
+  <h2>Add a New Cafe</h2>
+    <hr>
+    </div>
+    <input type="text" name="name" placeholder="Cafe Name" class="contact-inputs" required>
+    <input type="url" name="map_url" placeholder="Google Maps URL" class="contact-inputs" required>
+    <input type="url" name="img_url" placeholder="Image URL" class="contact-inputs" required>
+    <input type="text" name="location" placeholder="Location" class="contact-inputs" required>
+    <input type="text" name="seats" placeholder="Seats" class="contact-inputs" required>
+    <input type="text" name="coffee_price" placeholder="Coffee Price" class="contact-inputs">
     <label><input type="checkbox" name="has_wifi"> Has WiFi</label>
     <label><input type="checkbox" name="has_toilet"> Has Toilet</label>
     <label><input type="checkbox" name="has_sockets"> Has Power Sockets</label>
     <label><input type="checkbox" name="can_take_calls"> Can Take Calls</label>
     <button type="submit">Add Cafe</button>
   </form>
+  </div>
 </body>
 </html>

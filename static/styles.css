@@ -1,13 +1,13 @@
 body {
-  font-family: 'Inter', sans-serif;
+  font-family: 'Outfit', sans-serif;
   margin: 0;
   padding: 0;
-  background: #fafafa;
+  background: linear-gradient(#f0dbbb,#ddc0a5);
   color: #333;
 }
 
 header {
-  background: #f8d47a;
+  background: #816955;
   padding: 1rem 2rem;
   display: flex;
   justify-content: space-between;
@@ -48,4 +48,33 @@ header {
 
 .delete-btn {
   background: #e74c3c;
+}
+header h1 {
+color: #f0dbbb
+}
+.contact-container {
+      height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: space-evenly;
+}
+.contact-left {
+     display: flex;
+     flex-direction: column;
+     align-items: start;
+     gap: 20px
+}
+.contact-left-title h2{
+      font-weight: 600;
+      color: #816955;
+      font-size: 40px;
+      margin-bottom: 5px;
+}
+.contact-left-title hr{
+       border: none;
+       width: 120px;
+       height: 5px;
+       background-color: #816955;
+       border-radius: 10px;
+       margin-bottom: 20px;
 }
