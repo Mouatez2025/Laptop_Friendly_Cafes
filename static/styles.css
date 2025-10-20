@@ -78,3 +78,33 @@ color: #f0dbbb
        border-radius: 10px;
        margin-bottom: 20px;
 }
+.contact-inputs{
+     width: 400px;
+     height: 40px;
+     border: none;
+     outline: none;
+     padding-left: 20px;
+     font-weight: 500;
+     border-radius: 10px;
+}
+.contact-inputs:focus{
+border: 2px solid #816955;
+}
+
+.contact-left button{
+     display: flex;
+     align-items: center;
+     padding: 15px 30px;
+     font-size: 16px;
+     gap: 10px;
+     border-radius: 20px;
+     background: white;
+     border: none;
+
+
+
+
+
+
+
+}
