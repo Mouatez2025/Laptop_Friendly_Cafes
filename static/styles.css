@@ -70,14 +70,7 @@ color: #f0dbbb
       font-size: 40px;
       margin-bottom: 5px;
 }
-.contact-left-title hr{
-       border: none;
-       width: 120px;
-       height: 5px;
-       background-color: #816955;
-       border-radius: 10px;
-       margin-bottom: 20px;
-}
+
 .contact-inputs{
      width: 400px;
      height: 40px;
