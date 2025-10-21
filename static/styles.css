@@ -102,3 +102,14 @@ border: 2px solid #816955;
      border: 2px solid #816955;
 
 }
+.contact-right img{
+     width: 500px;
+}
+@media (max-width:800px) {
+    .contact-inputs{
+      width: 80vw;
+    }
+    .contact-right{
+      display: none;
+    }
+}
